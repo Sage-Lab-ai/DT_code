@@ -31,7 +31,7 @@ The DT Code file contains one document and four folders. Below is a description 
     e.	GRU_inference.py<br />
 4.	Check all the output files in the /DT Code/Output/ folder to see the full demo results:<br />
 
-<ins> Folders named Hourly, Protein, and Transcriptomics:</ins> <br />
+_Folders named Hourly, Protein, and Transcriptomics:_ <br />
 After running the XGB_inference_step2.py file, under path /DT Code/Output/, you will see a folder named Hourly or Protein or Transcriptomics that stores the observed and predicted parameter values for the hourly parameters. For each folder in the path /DT Code/Output/Hourly or /DT Code/Output/Protein or /DT Code/Output/Transcriptomics, we standardized the file naming conventions across various folders for ease of navigation:
 - true_Y.csv: the observed parameter values for hourly parameters according to Simulated Lung Profile ID<br />
 -	predicted_Y_XGBoost.csv: the predicted parameter values for hourly parameters according to Simulated Lung Profile ID <br />
@@ -39,10 +39,10 @@ After running the XGB_inference_step2.py file, under path /DT Code/Output/, you 
 -	performance_XGBoost.csv: summary metrics of MAEs and MAPEs for each parameter<br />
 -	test_X.csv: input parameter values during inference<br />
 
-<ins>Folder named ImagePC:</ins><br />
+_Folder named ImagePC:_<br />
 After running XGB_PC_dynamic.py and XGB_PC_static.py files, under path /DT Code/Output/, you will see a folder named ImagePC that stores all the observed and predicted image principal component (PC) values. Under this folder, you will see the forecasted PC values for both static and dynamic digital twin models.
   
-**Folder named High-resolution time series:<br />
+_Folder named High-resolution time series:_<br />
 After running GRU_inference.py file, under path /DT Code/Output/, you will see a folder named High-resolution time series that stores all the observed and predicted high-resolution breath parameter values. Under this folder, you will see you will see the forecasted PC values for both static and dynamic digital twin models:
   -	Demo results on the static digital twin approach can be found in folders: <br />
     o	A1F50_A2F50<br />
