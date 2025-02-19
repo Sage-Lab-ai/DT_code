@@ -1,11 +1,11 @@
 # Digital Twins of Ex Vivo Lungs 
 
 ## Purpose
-In addition to the source code files (/Code/src), we have prepared a demonstration of the digital twin (DT) approach. Below are the instructions for running the demo and, specifically, how to generate a digital twin (forecasted data) of a human lung using baseline ex vivo data.
+This repository includes all code files on developing the digital twin of ex vivo human lung model. 
 
 ## System requirements
-To run inference files, please make sure to have the following libraries installed: Pandas – 2.2.2; NumPy – 1.26.3; PyTorch – 2.3.1; XGBoost – 2.10; Scikit-learn – 1.5.1; SHAP – 0.46.0; SciPy – 1.13.0; wandb – 0.17.3 in Python (version 3.11.8)<br />
-Inference files located in /DT Code/Code/ can be executed on a laptop. However, using an embedded GPU for running these files can significantly improve performance, enabling near real-time inference. 
+All system requirements are listed in requirement.txt file. <br />
+
 
 ## Files
 The DT Code file contains one document and four folders. Below is a description of the DT Code file structure to guide you through the demo process:<br />
