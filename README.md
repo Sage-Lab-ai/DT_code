@@ -28,25 +28,26 @@ The DT Code file contains one document and four folders. Below is a description 
     c.	XGB_PC_static.py<br />
     d.	XGB_inference_step2.py<br />
     e.	GRU_inference.py<br />
-4.	Check all the output files in the /DT Code/Output/ folder to see the full demo results:
-<ins>Folders named Hourly, Protein, and Transcriptomics:<ins>
+4.	Check all the output files in the /DT Code/Output/ folder to see the full demo results:<br />
+<ins> Folders named Hourly, Protein, and Transcriptomics:</ins> <br />
 After running the XGB_inference_step2.py file, under path /DT Code/Output/, you will see a folder named Hourly or Protein or Transcriptomics that stores the observed and predicted parameter values for the hourly parameters. For each folder in the path /DT Code/Output/Hourly or /DT Code/Output/Protein or /DT Code/Output/Transcriptomics, we standardized the file naming conventions across various folders for ease of navigation:
--	true_Y.csv: the observed parameter values for hourly parameters according to Simulated Lung Profile ID
--	predicted_Y_XGBoost.csv: the predicted parameter values for hourly parameters according to Simulated Lung Profile ID 
-[Note: this file can be compared to see how the model performs when compared with the true_Y.csv file] 
--	performance_XGBoost.csv: summary metrics of MAEs and MAPEs for each parameter
--	test_X.csv: input parameter values during inference
-Folder named ImagePC:
+- true_Y.csv: the observed parameter values for hourly parameters according to Simulated Lung Profile ID<br />
+-	predicted_Y_XGBoost.csv: the predicted parameter values for hourly parameters according to Simulated Lung Profile ID <br />
+[Note: this file can be compared to see how the model performs when compared with the true_Y.csv file] <br />
+-	performance_XGBoost.csv: summary metrics of MAEs and MAPEs for each parameter<br />
+-	test_X.csv: input parameter values during inference<br />
+
+<ins>Folder named ImagePC:</ins><br />
 After running XGB_PC_dynamic.py and XGB_PC_static.py files, under path /DT Code/Output/, you will see a folder named ImagePC that stores all the observed and predicted image principal component (PC) values. Under this folder, you will see the forecasted PC values for both static and dynamic digital twin models.
-Folder named High-resolution time series:
+
+<ins>Folder named High-resolution time series:</ins><br />
 After running GRU_inference.py file, under path /DT Code/Output/, you will see a folder named High-resolution time series that stores all the observed and predicted high-resolution breath parameter values. Under this folder, you will see you will see the forecasted PC values for both static and dynamic digital twin models:
 -	Demo results on the static digital twin approach can be found in folders: 
-o	A1F50_A2F50
-o	A1F50_A3F50
-o	A1F50PA2F50_A3F50
+  o	A1F50_A2F50<br />
+  o	A1F50_A3F50<br />
+  o	A1F50PA2F50_A3F50<br />
 -	Demo results on the dynamic digital twin approach can be found in folder:
-o	A1F50A2F50_A3F50
-![image](https://github.com/user-attachments/assets/6bee1bea-75f5-43ea-a005-faacabcc6bd4)
+  o	A1F50A2F50_A3F50<br />
 
 
 
