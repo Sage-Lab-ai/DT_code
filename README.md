@@ -23,13 +23,13 @@ The DT Code file contains one document and four folders. Below is a description 
 
 ## Steps
   1.	Open DT Code in PyCharm or other development environments that can read python files.
-  2.	Run inference files according to the order presented below:
-    a.	XGB_inference.py
-    b.	XGB_PC_dynamic.py
-    c.	XGB_PC_static.py
-    d.	XGB_inference_step2.py
-    e.	GRU_inference.py
-3.	Check all the output files in the /DT Code/Output/ folder to see the full demo results:
+  2.	Run inference files according to the order presented below:<br />
+    a.	XGB_inference.py<br />
+    b.	XGB_PC_dynamic.py<br />
+    c.	XGB_PC_static.py<br />
+    d.	XGB_inference_step2.py<br />
+    e.	GRU_inference.py<br />
+4.	Check all the output files in the /DT Code/Output/ folder to see the full demo results:
 <ins>Folders named Hourly, Protein, and Transcriptomics:<ins>
 After running the XGB_inference_step2.py file, under path /DT Code/Output/, you will see a folder named Hourly or Protein or Transcriptomics that stores the observed and predicted parameter values for the hourly parameters. For each folder in the path /DT Code/Output/Hourly or /DT Code/Output/Protein or /DT Code/Output/Transcriptomics, we standardized the file naming conventions across various folders for ease of navigation:
 -	true_Y.csv: the observed parameter values for hourly parameters according to Simulated Lung Profile ID
