@@ -4,21 +4,20 @@
 In addition to the source code files (/Code/src), we have prepared a demonstration of the digital twin (DT) approach. Below are the instructions for running the demo and, specifically, how to generate a digital twin (forecasted data) of a human lung using baseline ex vivo data.
 
 ## System requirements
-To run inference files, please make sure to have following libraries installed: Pandas – 2.2.2; NumPy – 1.26.3; PyTorch – 2.3.1; XGBoost – 2.10; Scikit-learn – 1.5.1; SHAP – 0.46.0; SciPy – 1.13.0; wandb – 0.17.3 in Python (version 3.11.8)
+To run inference files, please make sure to have the following libraries installed: Pandas – 2.2.2; NumPy – 1.26.3; PyTorch – 2.3.1; XGBoost – 2.10; Scikit-learn – 1.5.1; SHAP – 0.46.0; SciPy – 1.13.0; wandb – 0.17.3 in Python (version 3.11.8)
 Inference files located in /DT Code/Code/ can be executed on a laptop. However, using an embedded GPU for running these files can significantly improve performance, enabling near real-time inference. 
 
 ## Files
-The DT Code file contains one document and four folders. Below is a description of the DT Code file structure to guide you through the demo process:
-  1)	Demo instruction: this document describes how to run the digital twin demo with step-by-step instructions. This is the current document. 
-  2)	Data: contains a cohort of n=50 EVLP cases and the associated lung functional parameter data, separated by the different data modalities [Note: there is nothing that requires manual edits or changes in this folder]. All existing data paths have been implemented in the inference code files under /DT Code/Code/ folder and are ready to use. 
-  3)	Model: All digital twin models required during demo inference phase. 
-  4)	Code: 
-    a.	src: Source code files on data preprocessing and model training for all models presented in this study. There is nothing that needs to be manually changed in this folder. 
-    b.	XGB_inference.py
-    c.	XGB_PC_dynamic.py
-    d.	XGB_PC_static.py
-    e.	XGB_inference_step2.py
-    f.	GRU_inference.py
+The DT Code file contains one document and four folders. Below is a description of the DT Code file structure to guide you through the demo process:<br />
+  1)	Data: contains a cohort of n=50 EVLP cases and the associated lung functional parameter data, separated by the different data modalities [Note: there is nothing that requires manual edits or changes in this folder]. All existing data paths have been implemented in the inference code files under /DT Code/Code/ folder and are ready to use. <br />
+  3)	Model: All digital twin models required during demo inference phase. <br />
+  4)	Code: <br />
+    a.	src: Source code files on data preprocessing and model training for all models presented in this study. There is nothing that needs to be manually changed in this folder. <br />
+    b.	XGB_inference.py<br />
+    c.	XGB_PC_dynamic.py<br />
+    d.	XGB_PC_static.py<br />
+    e.	XGB_inference_step2.py<br />
+    f.	GRU_inference.py<br />
   5)	Output: The demo results will be saved here after the completion of model inference
 
 ## Steps
