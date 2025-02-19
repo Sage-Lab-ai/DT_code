@@ -43,11 +43,11 @@ After running XGB_PC_dynamic.py and XGB_PC_static.py files, under path /DT Code/
   
 <ins>Folder named High-resolution time series:</ins><br />
 After running GRU_inference.py file, under path /DT Code/Output/, you will see a folder named High-resolution time series that stores all the observed and predicted high-resolution breath parameter values. Under this folder, you will see you will see the forecasted PC values for both static and dynamic digital twin models:
-  -	Demo results on the static digital twin approach can be found in folders: 
+  -	Demo results on the static digital twin approach can be found in folders: <br />
     o	A1F50_A2F50<br />
     o	A1F50_A3F50<br />
     o	A1F50PA2F50_A3F50<br />
-  -	Demo results on the dynamic digital twin approach can be found in folder:
+  -	Demo results on the dynamic digital twin approach can be found in folder:<br />
     o	A1F50A2F50_A3F50<br />
 
 
