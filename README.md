@@ -42,7 +42,7 @@ After running the XGB_inference_step2.py file, under path /DT Code/Output/, you 
 <ins>Folder named ImagePC:</ins><br />
 After running XGB_PC_dynamic.py and XGB_PC_static.py files, under path /DT Code/Output/, you will see a folder named ImagePC that stores all the observed and predicted image principal component (PC) values. Under this folder, you will see the forecasted PC values for both static and dynamic digital twin models.
   
-<ins>Folder named High-resolution time series:</ins><br />
+**Folder named High-resolution time series:<br />
 After running GRU_inference.py file, under path /DT Code/Output/, you will see a folder named High-resolution time series that stores all the observed and predicted high-resolution breath parameter values. Under this folder, you will see you will see the forecasted PC values for both static and dynamic digital twin models:
   -	Demo results on the static digital twin approach can be found in folders: <br />
     o	A1F50_A2F50<br />
