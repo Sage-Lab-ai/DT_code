@@ -8,7 +8,7 @@ All system requirements are listed in the requirement.txt file. <br />
 
 ## Files
 ### Code: <br />
- - src: source code files on DT model development in this study. <br />
+ - src: source code files on DT model development in this study <br />
  - XGB_inference.py<br />
  - XGB_PC_dynamic.py<br />
  - XGB_PC_static.py<br />
